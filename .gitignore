@@ -1,0 +1,7 @@
+# VSCode related
+.vscode/*
+.code-workspace
+
+# Environment variables
+.env
+*.env
