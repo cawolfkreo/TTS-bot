@@ -30,9 +30,8 @@ async function simpleTest() {
         const base64Result = base64Results.map(result => result.base64).join("");
         const base64Audio = testRegex(base64Result);
         console.log("We got the audio from Google!");
-        await fs.writeFile("./a-revisar4.txt", base64Audio);
         const audioBuffer = Buffer.from(base64Audio, "base64");
-        await fs.writeFile("./audio4.mp3", audioBuffer, "base64");
+        await fs.writeFile("./audio.mp3", audioBuffer, "base64");
         console.log("Audio saved!");
     } catch (error) {
         console.log(error);
