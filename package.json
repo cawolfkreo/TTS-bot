@@ -1,0 +1,34 @@
+{
+  "name": "tts-bot",
+  "version": "1.0.0",
+  "description": "a simple text to speech bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cawolfkreo/TTS-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "discord",
+    "text",
+    "to",
+    "speech"
+  ],
+  "author": "Camilo Zambrano Votto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cawolfkreo/TTS-bot/issues"
+  },
+  "homepage": "https://github.com/cawolfkreo/TTS-bot#readme",
+  "dependencies": {
+    "google-tts-api": "^2.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  }
+}
